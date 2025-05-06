@@ -6,7 +6,8 @@ import streamlit as st
 from pathlib import Path
 from dotenv import load_dotenv
 
-from agents import OpenAIAgent, EmailAgent, InspectorAgent, ContractorAgent
+# Import from the renamed agents module
+from realestate_agents import OpenAIAgent, EmailAgent, InspectorAgent, ContractorAgent
 
 # 1) Load .env
 load_dotenv()
